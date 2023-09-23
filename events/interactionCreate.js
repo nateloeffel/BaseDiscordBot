@@ -19,7 +19,10 @@ module.exports = {
                     interaction.commandName
                 );
 
-                if (!slashcmd) interaction.reply("Not a valid slash command");
+                if (!slashcmd) { 
+                    return interaction.reply("Not a valid slash command");
+                }
+                    
                 await slashcmd.run({ client, interaction });
             }
         }
