@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ItsInqz/failsbot/issues"
+    "url": "https://github.com/nateloeffel/BaseDiscordBot/issues"
   },
-  "homepage": "https://github.com/ItsInqz/failsbot#readme",
+  "homepage": "https://github.com/nateloeffel/BaseDiscordBot#readme",
   "dependencies": {
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1"
