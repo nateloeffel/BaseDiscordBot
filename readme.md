@@ -11,8 +11,8 @@ Welcome to this versatile Discord Bot template. Designed with simplicity and fle
 ## Quick Start 🚀
 1. **Setup**: Clone the repository and install the necessary dependencies. 
 ```
-git clone <repository-link>
-cd discord-bot-template
+git clone https://github.com/nateloeffel/BaseDiscordBot.git
+cd BaseDiscordBot
 npm install
 ```
 2. **Configuration**: Update the .env file with your Discord bot token and other relevant settings.
