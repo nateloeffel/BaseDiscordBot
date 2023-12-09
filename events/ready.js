@@ -1,7 +1,7 @@
 module.exports = {
     name: "ready",
     once: true,
-    execute(client, commandss) {
+    execute(client) {
         console.log(`\n---------------------------\n${client.user.tag} is now online!\n---------------------------`)
     },
 };

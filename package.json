@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/nateloeffel/BaseDiscordBot#readme",
   "dependencies": {
-    "discord.js": "^14.13.0",
+    "discord.js": "^14.14.1",
     "dotenv": "^16.3.1"
   }
 }

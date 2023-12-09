@@ -37,11 +37,11 @@ for (const file of eventFiles) {
 
 	if (event.once) {
 		client.once(event.name, (...args) =>
-			event.execute(...args, commands, client)
+			event.execute(...args, client)
 		);
 	} else {
 		client.on(event.name, (...args) =>
-			event.execute(...args, commands, client)
+			event.execute(...args, client)
 		);
 	}
 }
